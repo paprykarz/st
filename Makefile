@@ -57,4 +57,7 @@ uninstall:
 	@echo removing manual page from ${DESTDIR}${MANPREFIX}/man1
 	@rm -f ${DESTDIR}${MANPREFIX}/man1/st.1
 
+install-debian-deps:
+	sudo apt-get install libfreetype6-dev libfontconfig1-dev libxft-dev
+
 .PHONY: all options clean dist install uninstall
