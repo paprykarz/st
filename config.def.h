@@ -119,8 +119,8 @@ static unsigned int cursorshape = 2;
  * Default colour and shape of the mouse cursor
  */
 static unsigned int mouseshape = XC_xterm;
-static unsigned int mousefg = 7;
-static unsigned int mousebg = 0;
+static unsigned int mousefg = 0;
+static unsigned int mousebg = 15;
 
 /*
  * Colors used, when the specific fg == defaultfg. So in reverse mode this
