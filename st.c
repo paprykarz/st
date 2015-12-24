@@ -4342,7 +4342,7 @@ usage(void)
 int
 main(int argc, char *argv[])
 {
-	uint cols = 80, rows = 24;
+	uint cols = 120, rows = 24;
 
 	xw.l = xw.t = 0;
 	xw.isfixed = False;
